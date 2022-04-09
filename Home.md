@@ -1,7 +1,8 @@
 # Конспекты и документация к курсу «QA.GURU | Автоматизация тестирования»
 
 ### Содержание
-[Руководство по работе с командной строкой](https://github.com/qa-guru/knowledge-base/wiki/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0)   
+[Руководство по работе с командной строкой](https://github.com/qa-guru/knowledge-base/wiki/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0)    
+[Кодировка UTF-8 в Java](https://github.com/qa-guru/knowledge-base/wiki/%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-UTF-8-%D0%B2-Java)   
 
 Уроки:   
 1. [Вводное занятие. Сразу к практике.](https://github.com/qa-guru/getting-started/wiki)
