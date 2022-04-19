@@ -1,0 +1,11 @@
+- Примеры README - [https://github.com/matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme)
+- Маркдаун для разметки [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+
+- Профиль выпусника  [https://github.com/ElenaSkorobodilova](https://github.com/ElenaSkorobodilova)
+- Команды запуска тестов из терминала с пояснением ключей
+- История со скриншотами - где что происходит, запускается
+- Гифка с тестом (из видео в selenoid)
+- Иконки используемого стека для красоты
+- Emoji [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+- Оформите свой профиль как у [https://github.com/svasenkov](https://github.com/svasenkov), инструкция - [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- Также, отличная статья - [https://habr.com/ru/post/649363/](https://habr.com/ru/post/649363/)
