@@ -1,11 +1,11 @@
-- Примеры README - [https://github.com/matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme)
-- Маркдаун для разметки [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+## Полезные ссылки по оформлению файлов README.md
 
-- Профиль выпусника  [https://github.com/ElenaSkorobodilova](https://github.com/ElenaSkorobodilova)
-- Команды запуска тестов из терминала с пояснением ключей
-- История со скриншотами - где что происходит, запускается
-- Гифка с тестом (из видео в selenoid)
-- Иконки используемого стека для красоты
-- Emoji [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-- Оформите свой профиль как у [https://github.com/svasenkov](https://github.com/svasenkov), инструкция - [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- Также, отличная статья - [https://habr.com/ru/post/649363/](https://habr.com/ru/post/649363/)
+:green_circle: Примеры README [[ссылка]](https://github.com/matiassingers/awesome-readme)   
+:green_circle: Введение в Markdown [[ссылка]](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)   
+:green_circle: Профиль выпускника QA.GURU [[ссылка]](https://github.com/ElenaSkorobodilova)  
+:green_circle: Список Emoji для вставки [[ссылка]](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)  
+:green_circle: Статья по оформлению README [[ссылка]](https://habr.com/ru/post/649363/)  
+:green_circle: Профиль @svasenkov [[ссылка]](https://github.com/svasenkov) и инструкция для оформления [[ссылка]](https://github.com/anuraghazra/github-readme-stats)  
+:green_circle: Статья про диаграммы и графики в README [[ссылка]](https://habr.com/ru/post/652867/)    
+:green_circle: Советы о том, как встроить видео в README [[ссылка]](https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md)   
+  
