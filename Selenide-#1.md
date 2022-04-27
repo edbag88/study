@@ -1,0 +1,362 @@
+## Что это такое? 
+Selenide — фреймворк для автоматизированного тестирования веб-приложений на основе Selenium WebDriver. Отмечается, что данный фреймворк более простой в использовании и содержит много автоматизированных процессов.
+
+- Сайт [[ссылка]](https://ru.selenide.org/index.html)
+- Репозиторий [[ссылка]](https://github.com/selenide/selenide)
+
+## Как подключить 
+Подключается Selenide таким же образом, как и другие сторонние библиотеки:
+
+```groovy
+dependencies {
+  testImplementation 'com.codeborne:selenide:6.4.0'
+}
+```
+
+Важно отметить, что Selenide позиционируется как библиотека для быстрого старта. Поэтому авторы сделали все для того, что тестировщику не пришлось читать много документации. Все методы подскажет IDE, необходимо набрать `$(selector)` и среда разработки выведет все возможные варианты.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/les9/selenide-les.png)
+
+## Основные сниппеты кода
+
+### Для работы с браузером
+**Открытие страницы:**
+```java
+// Абсолютный путь
+open("https://google.com");
+
+// Относительный путь
+open("/customer/orders");
+
+// Прохождение браузерных окон авторизации
+open("/", AuthenticationType.BASIC,
+            new BasicAuthCredentials("user", "password"));
+```
+*Пример страницы авторизации:*
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/les9/les9-1.png)
+
+**Кнопки навигации:**
+```java
+// Кнопка назад
+Selenide.back();
+
+// Кнопка обновить страницу
+Selenide.refresh();
+```
+
+**Очистка данных:**
+```java
+// Очистка файлов куки
+Selenide.clearBrowserCookies();
+
+// Очистка Local Storage
+Selenide.clearBrowserLocalStorage();
+```
+
+**Браузерные всплывающие окна:**
+```java
+// Подтверждение во всплывающих окнах
+Selenide.confirm();
+
+// Отмена во всплывающих окнах
+Selenide.dismiss();
+```
+
+**Управление окнами (вкладками):**
+```java
+// Закрыть активную вкладку
+Selenide.closeWindow();
+
+// Закрыть все вкладки (браузер, ожидаемо, тоже закроется)
+Selenide.closeWebDriver();
+```
+
+**Переключение между фреймави страницы:**
+```java
+// Переход во фрейм по имени или селктору
+Selenide.switchTo().frame("new");
+
+// Переход во фрейм по умолчанию 
+Selenide.switchTo().defaultContent();
+```
+
+### Селекторы
+Селекторы обозначаются с помощью символа доллара — `$`. Но в языке Kotlin этот символ зарезервирован для внутреннего использования, поэтому вместо него следует использовать ключевое слово `element`.
+
+**Поиск элемента по селектору:**
+```java
+$("div").click();
+
+// Если нужен не первый n-ый div, то можно указать его индекс 
+// Важно помнит, что нумерация начинается с нуля
+// В примере найдется третий div
+$("div", 2).click();
+```
+
+**Поиск по тексту:**
+```java
+// Поиск по полной строке
+$(byText("full text")).click();
+
+// Поиск по подстроке
+$(withText("ull tex")).click();
+
+// Поиск по тегу и тексту одновременно
+ 
+// Полная строка
+$(byTagAndText("div","full text"));
+
+// Подстрока
+$(withTagAndText("div","ull text"));
+```
+
+**Поиск по DOM:**
+```java
+// По родителю 
+$("").parent();
+
+// Поиск по дочерним элементам (сверху вниз)
+$("").sibling(1);
+
+// То же, что и sibling, но снизу вверх
+$("").preceding(1);
+
+// Ищет предков элемента снизу вверх
+$("").closest("div");
+
+// То же, что и closest
+$("").ancestor("div");
+
+// Поиск по псевдоселекторам
+$("div:last-child");
+```
+
+**Опциональный поиск:**
+```java
+// Поиск по атрибуту
+$(byAttribute("abc", "x")).click();
+$("[abc=x]").click();
+
+// Поиск по ID элемента
+$(byId("mytext")).click();
+$("#mytext").click();
+
+// Поиск оп Class Name
+$(byClassName("red")).click();
+$(".red").click();
+```
+
+### Команды
+
+**Мышка:**
+```java
+// Клик по элементу
+$("").click();
+
+// Двойной клик
+$("").doubleClick();
+
+// Клик ПКМ
+$("").contextClick();
+
+// Подвести курсор
+$("").hover();
+```
+
+**Текстовые поля:**
+```java
+// Очистить поле и поместить значение
+$("").setValue("text");
+
+// Не очищать поле и поместить значение
+$("").append("text");
+
+// Очистить поле
+$("").clear();
+
+// Очистить поле путем помещения в поле пустой строки
+$("").setValue("");
+```
+
+**Клавиши:**
+```java
+// Нажать клавишу на конкретном элементе
+$("div").sendKeys("c");
+
+// Нажать клавишу во всем приложении
+actions().sendKeys("c").perform();
+
+// Последовательности клавиш 
+actions().sendKeys(Keys.chord(Keys.CONTROL, "f")).perform();
+
+// Пример применения клавиши по тегу html (вся страница)
+$("html").sendKeys(Keys.chord(Keys.CONTROL, "f"));
+
+// Нажать Enter
+$("").pressEnter();
+
+// Нажать Ecs
+$("").pressEscape();
+
+// Нажать Tab
+$("").pressTab();
+```
+
+**Сложные комбинации:**
+Начинаются команды методом `actions()`, а заканчиваются `perform()`.
+```java
+// Подвинуть курсор к элементу, кликнуть и держать, передвинуть по X и Y, отпустить кнопку мыши
+actions().moveToElement($("div")).clickAndHold().moveByOffset(300, 200).release().perform();
+```
+
+### Проверки
+```java
+$("").shouldBe(visible);
+$("").shouldNotBe(visible);
+$("").shouldHave(text("abc"));
+$("").shouldNotHave(text("abc"));
+$("").should(appear);
+$("").shouldNot(appear);
+
+// Кастомная настройка таймаута
+$("").shouldBe(visible, Duration.ofSeconds(30));
+```
+
+### Условия проверок
+Методу проверки всегда необходимо передавать условие, которое будет проверяться.
+
+```java
+// Видимый/скрытый элемент
+$("").shouldBe(visible);
+$("").shouldBe(hidden);
+
+// Условия содержания текста
+
+// Поиск по подстроке
+$("").shouldHave(text("abc"));
+
+//Поиск полного совпадения 
+$("").shouldHave(exactText("abc"));
+
+// Поиск с учетом регистра по подстроке
+$("").shouldHave(textCaseSensitive("abc"));
+
+// Поиск полного совпадения с учетом регистра
+$("").shouldHave(exactTextCaseSensitive("abc"));
+
+// Сложные условия
+$("").should(matchText("[0-9]abc$"));
+
+
+// CSS
+
+// Проверка класса
+$("").shouldHave(cssClass("red"));
+
+// Проверка элемента 
+$("").shouldHave(cssValue("font-size", "12"));
+
+
+// Поля ввода
+$("").shouldHave(value("25"));
+$("").shouldHave(exactValue("25"));
+$("").shouldBe(empty);
+
+// Атрибуты
+$("").shouldHave(attribute("disabled"));
+$("").shouldHave(attribute("name", "example"));
+$("").shouldHave(attributeMatching("name", "[0-9]abc$"));
+
+// Чекбоксы
+$("").shouldBe(checked); // for checkboxes
+
+// Проверка нахождения элемента в DOM, при этом пользователь может его не видеть
+$("").should(exist);
+```
+
+### Коллекции 
+Коллекции обозначаются двойным знаком доллара — `$$`. В Kotlin следует использовать ключевое слово `elements`.
+
+Пример:
+```java
+ $$("div");
+ elements("div");
+```
+**Фильтрации:**
+```java
+$$("div").filterBy(text("123")).shouldHave(size(1));
+$$("div").excludeWith(text("123")).shouldHave(size(1));
+```
+
+**Навигация:**
+```java
+// Первый
+$$("div").first().click();
+
+// Последний 
+$$("div").last().click();
+
+// По номеру 
+$$("div").get(1).click();
+```
+
+**Проверки коллекций:**
+```java
+// Размер
+$$("").shouldHave(size(0));
+// То же, что выше
+$$("").shouldBe(CollectionCondition.empty); 
+
+// Подтекст
+$$("").shouldHave(texts("Alfa", "Beta", "Gamma"));
+// Текст с полным соответствием
+$$("").shouldHave(exactTexts("Alfa", "Beta", "Gamma"));
+
+// Текст без учета порядка
+$$("").shouldHave(textsInAnyOrder("Beta", "Gamma", "Alfa"));
+$$("").shouldHave(exactTextsCaseSensitiveInAnyOrder("Beta", "Gamma", "Alfa"));
+
+// Поиск конкретного элемента по тексту
+$$("").shouldHave(itemWithText("Gamma"));
+
+// Проверка размера коллекции
+$$("").shouldHave(sizeGreaterThan(0));
+$$("").shouldHave(sizeGreaterThanOrEqual(1));
+$$("").shouldHave(sizeLessThan(3));
+$$("").shouldHave(sizeLessThanOrEqual(2));
+```
+
+### JavaScript 
+```java
+// Запуск
+executeJavaScript("alert('selenide')");
+
+// Запуск с аргументами
+executeJavaScript("alert(arguments[0]+arguments[1])", "abc", 12);
+
+// Запуск с аргументами и возвращением результата
+long fortytwo = executeJavaScript("return arguments[0]*arguments[1];", 6, 7);
+```
+
+### Файлы 
+Стоит помнить про обработку ошибок, иначе могут быт непредвиденные результаты выполнения теста.
+
+```java
+// Загрузка, но работает только с <a href="..">
+File file1 = $("a.fileLink").download();
+
+// Более простая загрузка по кнопке
+File file2 = $("div").download(DownloadOptions.using(FileDownloadMode.FOLDER)); 
+
+
+File file = new File("src/test/resources/readme.txt");
+
+// Загрузка файла на сайт
+$("#file-upload").uploadFile(file);
+$("#file-upload").uploadFromClasspath("readme.txt");
+
+// Файлы обычно на сайт обычно не загружаются сами 
+// И загрузка надо подтвердить нажатием кнопки
+$("uploadButton").click();
+```
