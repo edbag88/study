@@ -24,6 +24,6 @@ Java:
 [19. REST API. Продолжаем изучать](https://github.com/qa-guru/knowledge-base/wiki/19.-REST-API.-%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B0%D0%B5%D0%BC-%D0%B8%D0%B7%D1%83%D1%87%D0%B0%D1%82%D1%8C)    
 [20. Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%231.-Разрабатываем-автотесты-с-Browserstack)
 
-Python:
+Python:   
 [1. Вводное занятие. Сразу к практике!](https://github.com/qa-guru/knowledge-base/wiki/1.-Вводное-занятие.-Сразу-к-практике!)   
 [2. Погружаемся в инструментарий и библиотеки](https://github.com/qa-guru/knowledge-base/wiki/2.-Погружаемся-в-инструментарий-и-библиотеки)
