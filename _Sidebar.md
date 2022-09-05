@@ -34,4 +34,4 @@ Python:
 [7. Allure Reports](https://github.com/qa-guru/knowledge-base/wiki/7.-Allure-Reports-Python)     
 [8. Работаем с файлами Python](https://github.com/qa-guru/knowledge-base/wiki/8.-Работаем-с-файлами-Python)    
 [9 и 10. Jenkins. Создаем первую задачу и управляем параметрами Python](https://github.com/qa-guru/knowledge-base/wiki/9-и-10.-Jenkins.-Создаем-первую-задачу-и-управляем-параметрами-Python)      
-[12. Телеграм бот. Отправляем уведомления о результатах прохождения тестов](https://github.com/qa-guru/knowledge-base/wiki/12.-Телеграм-бот.-Отправляем-уведомления-о-результатах-прохождения-тестов)     
+[11. Телеграм бот. Отправляем уведомления о результатах прохождения тестов](https://github.com/qa-guru/knowledge-base/wiki/12.-Телеграм-бот.-Отправляем-уведомления-о-результатах-прохождения-тестов)     
