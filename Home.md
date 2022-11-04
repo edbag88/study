@@ -48,4 +48,5 @@ Python:
 13. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/13.-Selenoid)    
 14. [Pytest. Часть II](https://github.com/qa-guru/knowledge-base/wiki/14.-Pytest.-Часть-II)    
 15. [Venv, Poetry и управление зависимостями проекта](https://github.com/qa-guru/knowledge-base/wiki/15.-Venv,-Poetry-и-управление-зависимостями-проекта)    
+16. [REST API. Пишем автотесты с Requests.](https://github.com/qa-guru/knowledge-base/wiki/16.-REST-API.-Пишем-автотесты-с-Requests)    
 
