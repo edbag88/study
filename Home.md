@@ -60,3 +60,18 @@
 
 ### Инструменты Java:   
 1. [Allure Report](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Allure-Report)    
+2. [Allure TestOps](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Allure-TestOps)
+2. [Appium](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Appium)  
+4. [BrowserStack](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-BrowserStack)
+5. [Docker](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Docker)
+6. [GitHub](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-GitHub)
+7. [Gradle](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Gradle)
+8. [IntelliJ IDE](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-IntelliJ-IDEA)
+9. [Java](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Java)
+10. [Jenkins](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Jenkins)
+11. [Jira](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Jira)
+12. [Junit5](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-JUnit5)
+13. [REST Assured](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-REST-Assured)
+14. [Selenide](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenide)
+15. [Selenium](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenium)
+16. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenoid)
