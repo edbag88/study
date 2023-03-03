@@ -8,7 +8,7 @@
 
 --------  
 
-Java:   
+### Java:   
 1. [Вводное занятие. Сразу к практике.](https://github.com/qa-guru/getting-started/wiki)
 2. [Git. GitHub. Погружаемся.](https://github.com/qa-guru/knowledge-base/wiki/2.-Git.-GitHub.-%D0%9F%D0%BE%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC%D1%81%D1%8F.) 
 3. [Погружаемся в инструментарий и библиотеки.](https://github.com/qa-guru/knowledge-base/wiki/3.-%D0%9F%D0%BE%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC%D1%81%D1%8F-%D0%B2-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9-%D0%B8-%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8)   
@@ -33,7 +33,7 @@ Java:
 
 --------
 
-Python:
+### Python:
 1. [Вводное занятие. Сразу к практике!](https://github.com/qa-guru/knowledge-base/wiki/1.-Вводное-занятие.-Сразу-к-практике!)
 2. [Погружаемся в инструментарий и библиотеки](https://github.com/qa-guru/knowledge-base/wiki/2.-Погружаемся-в-инструментарий-и-библиотеки)    
 3. [Git. GitHub. Погружаемся.](https://github.com/qa-guru/knowledge-base/wiki/3.-Git.-GitHub.-Погружаемся.)    
@@ -54,4 +54,9 @@ Python:
 18. [Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack](https://github.com/qa-guru/knowledge-base/wiki/19.-Мобильная-автоматизация-%231.-Разрабатываем-автотесты-с-Browserstack)   
 19. [Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android устройства](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%232.-Разрабатываем-автотесты-с-эмулятором-Android-устройства)    
 20. [Allure TestOps](https://github.com/qa-guru/knowledge-base/wiki/Allure-TestOps-Python)      
-21. [Переезд на собственную инфраструктуру Python](https://github.com/qa-guru/knowledge-base/wiki/21.-Переезд-на-собственную-инфраструктуру-Python)
+21. [Переезд на собственную инфраструктуру Python](https://github.com/qa-guru/knowledge-base/wiki/21.-Переезд-на-собственную-инфраструктуру-Python)   
+
+-----
+
+### Инструменты Java:   
+1. [Allure Report](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Allure-Report)    
