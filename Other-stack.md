@@ -1,0 +1,9 @@
+owner
+faker
+maven
+testng
+junit
+junit4
+junit5
+selenium
+spring
