@@ -74,4 +74,9 @@
 13. [REST Assured](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-REST-Assured)
 14. [Selenide](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenide)
 15. [Selenium](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenium)
-16. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenoid)
+16. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Selenoid)   
+
+-----
+
+### Инструменты Python:   
+1. [Pycharm](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-PyCharm)
