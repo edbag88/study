@@ -9,7 +9,7 @@ IntelliJ IDEA используют в таких крупных компания
 ## Установка
 
 ### Windows
-1. Перейти по ссылки на [официальный сайт](https://www.jetbrains.com/ru-ru/idea/download/#section=mac) IntelliJ IDEA;
+1. Перейти по ссылке на [официальный сайт](https://www.jetbrains.com/ru-ru/idea/download/#section=mac) IntelliJ IDEA;
 2. Выбрать платформу Windows и нажать на кнопку "Скачать" в разделе Community Edition;
 3. После завершения загрузки запустить скаченный установщик;
 4. В окне установщика поставить галочку в пункте "Update PATH variable";
