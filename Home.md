@@ -95,3 +95,22 @@
 14. [Jenkins](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Jenkins)
 15. [Jira](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Jira)
 16. [Telegram](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Telegram)
+
+-----
+
+### Инструменты Java Advanced:
+1. [Allure](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Allure)
+2. [Docker](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Docker)
+3. [Gradle](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Gradle)
+4. [gRPC](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-gRPC)
+5. [Java](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Java)
+6. [JDBC](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-JDBC)
+7. [Jira](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Jira)
+8. [JUnit 5](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-JUnit-5)
+9. [Kaspresso](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Kaspresso)
+10. [REST Assured](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-REST-Assured)
+11. [SOAP API](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-SOAP-API)
+12. [Spring](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Spring)
+13. [Swift](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-Swift)
+14. [Wiremock](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-WireMock)
+15. [XCTest](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Java-Advanced:-XCTest)
