@@ -80,3 +80,18 @@
 
 ### Инструменты Python:   
 1. [Pycharm](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-PyCharm)
+2. [Python](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Python)
+3. [PyTest](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-PyTest)
+4. [Requests](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Requests)
+5. [Selene](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Selene)
+6. [Selenium](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Selenium)
+7. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Selenoid)
+8. [Allure Report](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Allure-Report)
+9. [Allure Testops](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-TestOps)
+10. [Appium](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Appium)
+11. [BrowserStack](https://github.com/qa-guru/knowledge-base/wiki/Инструмент-Python:-BrowserStack)
+12. [Docker](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Docker)
+13. [GitHub](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-GitHub)
+14. [Jenkins](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Jenkins)
+15. [Jira](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Jira)
+16. [Telegram](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Telegram)
