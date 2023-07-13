@@ -1,7 +1,10 @@
 Что нужно сделать, чтобы не было проблем с кодировкой UTF-8 и отображением непонятных символов:
 1. В IDE в верхней панели меню нажать `Help -> Edit Custom VP Options` и добавить в конец текста две строчки:  
-```-Dconsole.encoding=UTF-8
--Dfile.encoding=UTF-8```
+```
+-Dconsole.encoding=UTF-8
+-Dfile.encoding=UTF-8
+```
+
 2. Далее в IDE зайти в меню `File -> Settings -> Editor -> File Encodings`:
 в верхних двух полях должно стоять `UTF-8`, в самой нижней – `with NO BOM`. Далее следует сохранить изменения;
 
