@@ -55,9 +55,11 @@ Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 В файле конфигурации добавляем код:
 ```java
 DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
-        Configuration.browserCapabilities = capabilities;
+capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+     "enableVNC", true,
+     "enableVideo", true
+));
+Configuration.browserCapabilities = capabilities;
 ```
 
 Далее в классе с `Attachments` добавляем следующее: 
