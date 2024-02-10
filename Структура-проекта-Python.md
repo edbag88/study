@@ -3,17 +3,17 @@
 
 Ссылки на дипломные проекты с правильной структурой проекта:
 
-[https://github.com/Wildips/demoqa_diplome](https://github.com/Wildips/demoqa_diplome)
+https://github.com/Wildips/demoqa_diplome
 
-[https://github.com/Wildips/wiki_mobile_project](https://github.com/Wildips/wiki_mobile_project)
+https://github.com/Wildips/wiki_mobile_project
 
-[https://github.com/Wildips/qa_g-rest-api](https://github.com/Wildips/qa_g-rest-api)
+https://github.com/Wildips/qa_g-rest-api
 
-[https://github.com/div50015/diploma-project](https://github.com/div50015/diploma-project)
+https://github.com/div50015/diploma-project
 
-[https://github.com/o1ra/intertop/tree/main](https://github.com/o1ra/intertop/tree/main)
+https://github.com/o1ra/intertop/tree/main
 
-[https://github.com/o1ra/krisha](https://github.com/o1ra/krisha)
+https://github.com/o1ra/krisha
 
 ```
 my-project-tests/           # корневой каталог проекта(название проекта)(пример litress-project-tests)
