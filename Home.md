@@ -96,6 +96,11 @@
 15. [Jira](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Jira)
 16. [Telegram](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Telegram)
 
+
+### Дополнительные материалы:
+1. [Структура проекта](https://github.com/qa-guru/knowledge-base/wiki/Структура-проекта-Python)
+
+
 -----
 
 ### Инструменты Java Advanced:
