@@ -42,10 +42,10 @@
 6. [Основы Python. Часть II](https://github.com/qa-guru/knowledge-base/wiki/6.-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Python.-%D0%A7%D0%B0%D1%81%D1%82%D1%8C-II)    
 7. [Основы Python. Часть III](https://github.com/qa-guru/knowledge-base/wiki/7.-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Python.-%D0%A7%D0%B0%D1%81%D1%82%D1%8C-III)    
 8. [Page Object](https://github.com/qa-guru/knowledge-base/wiki/8.-Page-Objects)    
-7. [Allure Reports](https://github.com/qa-guru/knowledge-base/wiki/7.-Allure-Reports-Python)     
-8. [Работаем с файлами Python](https://github.com/qa-guru/knowledge-base/wiki/8.-Работаем-с-файлами-Python)  
-9. [Jenkins. Создаем первую задачу и управляем параметрами Python](https://github.com/qa-guru/knowledge-base/wiki/9-и-10.-Jenkins.-Создаем-первую-задачу-и-управляем-параметрами-Python)    
-10. [Телеграм бот. Отправляем уведомления о результатах прохождения тестов](https://github.com/qa-guru/knowledge-base/wiki/11.-Телеграм-бот.-Отправляем-уведомления-о-результатах-прохождения-тестов)     
+9. [Allure Reports](https://github.com/qa-guru/knowledge-base/wiki/7.-Allure-Reports-Python)     
+10. [Работаем с файлами Python](https://github.com/qa-guru/knowledge-base/wiki/8.-Работаем-с-файлами-Python)  
+11. [Jenkins. Создаем первую задачу и управляем параметрами Python](https://github.com/qa-guru/knowledge-base/wiki/9-и-10.-Jenkins.-Создаем-первую-задачу-и-управляем-параметрами-Python)    
+12. [Телеграм бот. Отправляем уведомления о результатах прохождения тестов](https://github.com/qa-guru/knowledge-base/wiki/11.-Телеграм-бот.-Отправляем-уведомления-о-результатах-прохождения-тестов)     
 11. [Pytest. Часть I](https://github.com/qa-guru/knowledge-base/wiki/12.-Pytest.-Часть-I)   
 12. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/13.-Selenoid)    
 13. [Pytest. Часть II](https://github.com/qa-guru/knowledge-base/wiki/14.-Pytest.-Часть-II)    
@@ -97,10 +97,10 @@
 15. [Jira](https://github.com/qa-guru/knowledge-base/wiki/Инструменты:-Jira)
 16. [Telegram](https://github.com/qa-guru/knowledge-base/wiki/Инструменты-Python:-Telegram)
 
+-----
 
 ### Дополнительные материалы:
 1. [Структура проекта](https://github.com/qa-guru/knowledge-base/wiki/Структура-проекта-Python)
-
 
 -----
 
