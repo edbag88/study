@@ -40,7 +40,7 @@ Python:
 [10. Работаем с файлами Python](https://github.com/qa-guru/knowledge-base/wiki/10.-Работаем-с-файлами-Python)    
 [11. Jenkins. Создаем первую задачу и управляем параметрами Python](https://github.com/qa-guru/knowledge-base/wiki/11.-Jenkins.-Создаем-первую-задачу-и-управляем-параметрами-Python)      
 [12. Телеграм бот. Отправляем уведомления о результатах прохождения тестов](https://github.com/qa-guru/knowledge-base/wiki/12.-Телеграм-бот.-Отправляем-уведомления-о-результатах-прохождения-тестов)    
-[13. Pytest](https://github.com/qa-guru/knowledge-base/wiki/12.-Pytest)    
+[13. Pytest](https://github.com/qa-guru/knowledge-base/wiki/13.-Pytest)    
 [14. Selenoid](https://github.com/qa-guru/knowledge-base/wiki/13.-Selenoid)    
 [15. Pytest. Часть II](https://github.com/qa-guru/knowledge-base/wiki/14.-Pytest.-Часть-II)     
 [16. Venv, Poetry и управление зависимостями проекта](https://github.com/qa-guru/knowledge-base/wiki/15.-Venv,-Poetry-и-управление-зависимостями-проекта)    
