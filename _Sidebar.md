@@ -44,7 +44,7 @@ Python:
 [14. Selenoid](https://github.com/qa-guru/knowledge-base/wiki/13.-Selenoid)    
 [15. Pytest. Часть II](https://github.com/qa-guru/knowledge-base/wiki/14.-Pytest.-Часть-II)     
 [16. Venv, Poetry и управление зависимостями проекта](https://github.com/qa-guru/knowledge-base/wiki/15.-Venv,-Poetry-и-управление-зависимостями-проекта)    
-[17. REST API. Пишем автотесты с Requests](https://github.com/qa-guru/knowledge-base/wiki/16.-REST-API.-Пишем-автотесты-с-Requests.)   
+[17. REST API. Часть I. Пишем автотесты с Requests](https://github.com/qa-guru/knowledge-base/wiki/16.-REST-API.-Часть-I.-Пишем-автотесты-с-Requests)   
 [18. REST API. Часть I. Продолжаем изучать](https://github.com/qa-guru/knowledge-base/wiki/17.-REST-API.-Часть-I.-Продолжаем-изучать)    
 [19. Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack](https://github.com/qa-guru/knowledge-base/wiki/19.-Мобильная-автоматизация-%231.-Разрабатываем-автотесты-с-Browserstack)     
 [20. Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android устройства](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%232.-Разрабатываем-автотесты-с-эмулятором-Android-устройства)    
