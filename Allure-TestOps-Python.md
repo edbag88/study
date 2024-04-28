@@ -8,10 +8,15 @@
     - [Как узнать свой Username в Jenkins](#как-узнать-свой-username-в-jenkins)
     - [Как создать API token в Jenkins](#как-создать-api-token-в-jenkins)
   - [Как подключить интеграцию с Jira](#как-подключить-интеграцию-с-jira)
-  - [Живая документация](#живая-документация)
-  - [Автоматизация](#автоматизация)
-  - [Запуск тестов](#запуск-тестов)
-  - [Разбор отчётов](#разбор-отчётов)
+  - [Realtime reporting(Отчеты в режиме реального времени)](#realtime-reportingотчеты-в-режиме-реального-времени)
+  - [Testcases(Тест-кейсы)](#testcasesтест-кейсы)
+  - [Live documentation(Живая документация)](#live-documentationживая-документация)
+    - [Единая точка правды](#единая-точка-правды)
+  - [Фильтрация тест кейсов](#фильтрация-тест-кейсов)
+  - [Как добавить отображение параметров запуска в Allure TestOps](#как-добавить-отображение-параметров-запуска-в-allure-testops)
+  - [Ручные тест кейсы](#ручные-тест-кейсы)
+  - [Как перенести ручной тест в код и работа с плагином Allure TestOps Support](#как-перенести-ручной-тест-в-код-и-работа-с-плагином-allure-testops-support)
+    - [Создание токена для плагина Allure TestOps Support](#создание-токена-для-плагина-allure-testops-support)
 
 
 # Allure TestOps Python 
@@ -21,6 +26,8 @@ Allure TestOps — это TMS(тест-менеджмент система) дл
 Репозиторий с примером проекта можно найти [тут](https://github.com/eroshenkoam/allure-pytest-example).
 
 ## Интеграция Jenkins и Allure TestOps
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
 Пример реализации самой простой "джобы" в jenkins с Allure TestOps:
 
 1. Параметризованная сборка с параметрами `ENDPOINT` и `BROWSER`, и значением по умолчанию `https://testing.github.com` и `firefox`
@@ -50,15 +57,19 @@ Allure TestOps — это TMS(тест-менеджмент система) дл
 
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/allure_jenkins.jpeg)
 
+</details>
 
 ## Авторизация в Allure TestOps
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
 Для авторизации в Allure TestOps необходимо ввести логин и пароль которые представлены в уроке. Регистрироваться самому НЕ НУЖНО.
 
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/testops_login.jpeg)
 
+</details>
 
 ## Добавляем Allure TestOps в jenkins джобу
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
 1. Если не нужно отображение результатов прогона в Allure Results, то указываем отметку в чек боксе `Disabled` в разделе `Allure Report`.
 
@@ -80,7 +91,10 @@ Allure TestOps — это TMS(тест-менеджмент система) дл
 
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/jenkins_allure_testops_2.jpeg)
 
+</details>
+
 ## Добавляем отображение проекта Allure TestOps в jenkins джобе
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
 1. Создаем проект в Allure TestOps. Для этого переходим в Allure TestOps и авторизируемся
 2. На главной странице с `Projects` нажимаем на кнопку `Create new project`
@@ -117,8 +131,10 @@ Allure TestOps — это TMS(тест-менеджмент система) дл
 
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/last_result.jpeg)
 
+</details>
 
 ## Как подключить интеграцию и запуск джобы в Jenkins через Allure TestOps
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
 1. Для того чтобы джобу можно было запускать через Allure TestOps, необходимо в настройках проекта добавить интеграцию с Jenkins.
    - Переходим в настройки проекта на таб `Integrations`.
@@ -182,8 +198,10 @@ Allure TestOps — это TMS(тест-менеджмент система) дл
   
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/token_number.jpg)
 
-  
+</details>
+
 ## Как подключить интеграцию с Jira
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
 1. Для того чтобы добавить интеграцию с Jira, необходимо:
    - Переходим в настройки проекта на таб `Integrations`.
@@ -203,23 +221,150 @@ Allure TestOps — это TMS(тест-менеджмент система) дл
 
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/added_integration_jira.jpeg)
 
+</details>
 
+## Realtime reporting(Отчеты в режиме реального времени)
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
+Allure TestOps позволяет в реальном времени отслеживать результаты выполнения тестов. При этом можно видеть какие тесты были запущены, какие прошли успешно, а какие нет. Также можно видеть сколько времени занял прогон тестов и сколько времени занял каждый тест.
 
+Пример отображения результатов тестов в Allure TestOps(общий результат прогона(он отображается если запустить прогон тестов в Jenkins)):
 
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/realtime_reporting.jpeg)
 
-## Живая документация
-Allure TestOps позволяет собирать в одном месте тест-кейсы, к которым могут иметь доступ все члены команды. Это позволяет экономить время и не отвлекаться от разработки тестов, так как каждый может посмотреть покрытие и сценарий каждого теста.
+Пример отображения результатов тестов в Allure TestOps(подробное отображение по каждому тесту(шаги, скриншоты, логи, время выполнения и т.д.)):
 
-Интерфейс «живой документации»:
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/launches.jpeg)
 
-![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/allure/allure-3.png)
+</details>
 
-## Автоматизация
-Обычно тестирование начинается с ручных тестировщиков, которые погружаются в архитектуру, изучают её и пишут тест-кейсы. После этого приходят автоматизаторы, которые по готовым сценариям пишут автоматические тесты. Allure TestOps позволяет автоматически переносить сценарии тестирования в код и после этого их можно дополнять кодом.
+## Testcases(Тест-кейсы)
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
 
-## Запуск тестов
-Allure TestOps позволяет из интерфейса запускать автоматические тесты и смотреть результат их выполнения. При этом можно выбирать какие именно тесты запускать. Также к системе имеют доступ все члены команды, которые для своих нужд могут пользоваться тестами.
+Для того чтобы получить/сгенерировать тест-кейсы в Allure TestOps из прогонов тестов, то необходимо закрыть `Launch`.
 
-## Разбор отчётов
-Часто бывает такое, что после релиза автотестов, некоторые из них могут содержать ошибки. Члены команды, которые запускают их, будут видеть эти ошибки до тех пор, пока их не исправят. В Allure TestOps позволяет отслеживать дефекты и добавлять к ним комментарии. После этого все будут видеть понятное сообщение об ошибке, а не данные из консоли.
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/close_launches.jpeg)
+
+После этого необходимо перейти в боковом меню на вкладку `Test cases`. В данном разделе можно создавать тест-кейсы, редактировать их, удалять и просматривать.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/test_cases.jpeg)
+
+</details>
+
+## Live documentation(Живая документация)
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
+Если правильно разметить тесты, то можно получить живую документацию. Для этого необходимо в тестах использовать аннотации, которые позволяют описывать тесты. После этого в Allure TestOps можно увидеть документацию по тестам.
+При малейших изменениях в тестах, документация автоматически обновляется.
+
+### Единая точка правды
+
+Единая точка правды это когда у всех членов команды есть доступ к актуальной информации. Если вы работаете с авто тестами, то единая точка правды это авто тесты. Все изменения в авто тестах отображаться в документации и таким образом все члены команды будут видеть актуальную информацию.
+
+</details>
+
+## Фильтрация тест кейсов
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
+Для отображения панели фильтрации тест кейсов необходимо нажать на кнопку `Filter` .
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/filter_test_cases.jpeg)
+
+После этого отобразиться панель фильтрации, в которой можно выбрать нужные фильтры для отображения тест кейсов.
+
+Пример фильтрации по тегам:
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/filter_test_cases_2.jpeg)
+
+</details>
+
+## Как добавить отображение параметров запуска в Allure TestOps
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
+Для добавления параметров запуска в Allure TestOps необходимо перейти в настройки проекта `Settings` и перейти на таб `Environment `.
+
+Далее на странице `Environment schemas settings` кликнуть на кнопку `Create`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/environment_settings.jpeg)
+
+В отобразившихся полях необходимо заполнить данные для добавления эндпоинта(где тестируется приложение(ссылка на сайт)):
+   - В строке `Mapping Key` указываем название переменной параметра, к примеру `ENDPOINT` или `URL`(данные переменные должны совпадать с переменными в Jenkins)
+   - В выпадающем списке `Environment variable` выбираем значение для переменной, к примеру `HOST`.
+   - Кликаем на кнопку `Submit`
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/host_variable.jpeg)
+
+Для добавления других параметров запуска необходимо повторить действия для каждого параметра.
+К примеру для добавления параметра `BROWSER`:
+   - В строке `Mapping Key` указываем название переменной параметра, к примеру `BROWSER`.
+   - В выпадающем списке `Environment variable` выбираем значение для переменной, к примеру `Browser`.
+   - Кликаем на кнопку `Submit`
+
+Пример добавления отображения параметров запуска в Allure TestOps:
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_environment.jpeg)
+
+Если необходимо добавить другие параметры, к примеру `Custom Fields`, `Test Layers` или `Tree`, то необходимо повторить подобные действия как описаны ранее для добавления параметров.
+
+К примеру в блоке `Test Layers` можно добавить разметку для указания какие тесты относятся к какому слою тестирования(например `UI`, `API`, `Integration` и т.д.).
+
+</details>
+
+## Ручные тест кейсы
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
+Для добавления/создания ручных тест кейсов необходимо в боковом меню перейти на вкладку `Test cases`. И в строке с подсказкой для ввода(плейсхолдер) `Add a new test case` ввести название тест кейса и нажать на кнопку `Enter`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_manual_test_case.jpeg)
+
+Добавленный ручной тест кейс отобразится в списке тест кейсов с иконкой `руки`, при наведении на которую отображается текст `manual`. 
+Автоматизированные тест кейсы отображаются с иконкой в виде робота, при наведении на которую отображается текст `automated`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/manual_test_case.jpeg)
+
+Для редактирования ручного тест кейса необходимо кликнуть на тест кейс и в правой части отобразиться панель редактирования тест кейса.
+Если необходимо добавить шаги, то необходимо в строке `Scenario` кликнуть на кнопку карандаша и в отобразившемся поле ввести шаги тест кейса.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_steps.jpeg)
+
+Если необходимо сделать шаг в шаге, то необходимо в строке с шагом нажать на иконку три точки и выбрать `Indent`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_steps_more_details.jpeg)
+
+После добавления шагов необходимо нажать на кнопку `Submit`.
+
+</details>
+
+## Как перенести ручной тест в код и работа с плагином Allure TestOps Support
+
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
+После создания ручного тест кейса, можно перенести его в код. Для этого необходимо для начала установить плагин `Allure TestOps Support`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/plugin_testops.jpeg)
+
+Далее необходимо перейти в настройки(Settings) Pycharm в раздел `Tools` и кликнуть на `Allure TestOps Support`.
+В отобразившемся окне в блоке `Connection` в строке `Endpoint` указать адрес сервера Allure TestOps(урл адрес школьного сервера), а в строке `Token` указать токен к аккаунту Allure TestOps.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/data_plugin_testops.jpeg)
+
+### Создание токена для плагина Allure TestOps Support
+
+Для создания токена для плагина Allure TestOps Support необходимо перейти в Allure TestOps и авторизоваться.
+ - В нижней части страницы кликнуть на иконку пользователя и в выпадающем списке выбрать `Your profile`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/profile_testops.jpeg)
+
+ - На открывшейся странице в блоке `API tokens!` проскролить до кнопки `Create` и кликнуть на неё.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/api_token_testops.jpeg)
+
+ - В отобразившемся попапе в строке `Name` указать название токена(название может быть любым). После этого кликнуть на кнопку `Submit`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/token_name.jpeg)
+
+ - После создания токена, необходимо скопировать его и вставить в поле `Token` в Pycharm.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/token_created.jpeg)
+
+</details>
