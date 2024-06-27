@@ -53,7 +53,7 @@
 15. [REST API. Часть I. Пишем автотесты с Requests.](https://github.com/qa-guru/knowledge-base/wiki/16.-REST-API.-Часть-I.-Пишем-автотесты-с-Requests)   
 16. [REST API. Часть II. Продолжаем изучать](https://github.com/qa-guru/knowledge-base/wiki/17.-REST-API.-Часть-II.-Продолжаем-изучать)     
 17. [Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack](https://github.com/qa-guru/knowledge-base/wiki/19.-Мобильная-автоматизация-%231.-Разрабатываем-автотесты-с-Browserstack)   
-18. [Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android устройства](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%232.-Разрабатываем-автотесты-с-эмулятором-Android-устройства)    
+18. [Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android устройства](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%232.-Разрабатываем-автотесты-с-эмулятором-Android-устройства-python)    
 19. [Allure TestOps](https://github.com/qa-guru/knowledge-base/wiki/Allure-TestOps-Python)      
 20. [Переезд на собственную инфраструктуру Python](https://github.com/qa-guru/knowledge-base/wiki/21.-Переезд-на-собственную-инфраструктуру-Python)   
 
