@@ -47,15 +47,15 @@
 11. [Jenkins. Создаем первую задачу и управляем параметрами Python](https://github.com/qa-guru/knowledge-base/wiki/11.-Jenkins.-Создаем-первую-задачу-и-управляем-параметрами-Python)    
 12. [Телеграм бот. Отправляем уведомления о результатах прохождения тестов](https://github.com/qa-guru/knowledge-base/wiki/12.-Телеграм-бот.-Отправляем-уведомления-о-результатах-прохождения-тестов)     
 13. [Pytest](https://github.com/qa-guru/knowledge-base/wiki/13.-Pytest)   
-12. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/13.-Selenoid)    
-13. [Pytest. Часть II](https://github.com/qa-guru/knowledge-base/wiki/14.-Pytest.-Часть-II)    
-14. [Venv, Poetry и управление зависимостями проекта](https://github.com/qa-guru/knowledge-base/wiki/15.-Venv,-Poetry-и-управление-зависимостями-проекта)    
-15. [REST API. Часть I. Пишем автотесты с Requests.](https://github.com/qa-guru/knowledge-base/wiki/16.-REST-API.-Часть-I.-Пишем-автотесты-с-Requests)   
-16. [REST API. Часть II. Продолжаем изучать](https://github.com/qa-guru/knowledge-base/wiki/17.-REST-API.-Часть-II.-Продолжаем-изучать)     
-17. [Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack](https://github.com/qa-guru/knowledge-base/wiki/19.-Мобильная-автоматизация-%231.-Разрабатываем-автотесты-с-Browserstack)   
-18. [Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android устройства](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%232.-Разрабатываем-автотесты-с-эмулятором-Android-устройства-python)    
-19. [Allure TestOps](https://github.com/qa-guru/knowledge-base/wiki/Allure-TestOps-Python)      
-20. [Переезд на собственную инфраструктуру Python](https://github.com/qa-guru/knowledge-base/wiki/21.-Переезд-на-собственную-инфраструктуру-Python)   
+14. [Selenoid](https://github.com/qa-guru/knowledge-base/wiki/13.-Selenoid)    
+15. [Pytest. Часть II](https://github.com/qa-guru/knowledge-base/wiki/14.-Pytest.-Часть-II)    
+16. [Venv, Poetry и управление зависимостями проекта](https://github.com/qa-guru/knowledge-base/wiki/15.-Venv,-Poetry-и-управление-зависимостями-проекта)    
+17. [REST API. Часть I. Пишем автотесты с Requests.](https://github.com/qa-guru/knowledge-base/wiki/16.-REST-API.-Часть-I.-Пишем-автотесты-с-Requests)   
+18. [REST API. Часть II. Продолжаем изучать](https://github.com/qa-guru/knowledge-base/wiki/17.-REST-API.-Часть-II.-Продолжаем-изучать)     
+19. [Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack](https://github.com/qa-guru/knowledge-base/wiki/19.-Мобильная-автоматизация-%231.-Разрабатываем-автотесты-с-Browserstack)   
+20. [Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android устройства](https://github.com/qa-guru/knowledge-base/wiki/20.-Мобильная-автоматизация-%232.-Разрабатываем-автотесты-с-эмулятором-Android-устройства-python)    
+21. [Allure TestOps](https://github.com/qa-guru/knowledge-base/wiki/Allure-TestOps-Python)      
+22. [Переезд на собственную инфраструктуру Python](https://github.com/qa-guru/knowledge-base/wiki/21.-Переезд-на-собственную-инфраструктуру-Python)   
 
 -----
 
@@ -101,6 +101,7 @@
 
 ### Дополнительные материалы:
 1. [Структура проекта](https://github.com/qa-guru/knowledge-base/wiki/Структура-проекта-Python)
+2. [Список полезных книг для автоматизаторов тестирования на языке Python](https://github.com/qa-guru/knowledge-base/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D1%85-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5-Python)
 
 -----
 
