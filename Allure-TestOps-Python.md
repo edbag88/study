@@ -25,6 +25,8 @@
     - [Ручной rerun](#ручной-rerun)
   - [Как запустить тесты в Allure TestOps](#как-запустить-тесты-в-allure-testops)
   - [Как завести дефект в Jira из Allure TestOps](#как-завести-дефект-в-jira-из-allure-testops)
+  - [Как добавить в Jira тикет тест кейс и прогоны из Allure TestOps](#как-добавить-в-jira-тикет-тест-кейс-и-прогоны-из-allure-testops)
+  
 
 
 
@@ -563,5 +565,79 @@ def test_example():
 Далее в поп-апе указать название дефекта или же выбрать из списка и нажать `Link defect`.
 
 ![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/link_defects_2.jpeg)
+
+</details>
+
+
+## Как добавить в Jira тикет тест кейс и прогоны из Allure TestOps
+<details><summary><b>Нажать, чтобы раскрыть</b></summary>
+
+### Добавление тест кейсов в Jira
+Для того чтобы добавить тест кейс в Jira необходимо сделать шаги:
+1. Должна быть настроена интеграция с Jira(описано в разделе [Как подключить интеграцию с Jira](#как-подключить-интеграцию-с-jira))
+2. Должны быть созданы/сгенерированы тест кейсы в Allure TestOps(описано в разделе [Testcases(Тест-кейсы)](#testcasesтест-кейсы))
+3. Должен быть создан тикет в Jira.
+
+Для того чтобы добавить тест кейс в Jira необходимо:
+   - В TestOps перейти в раздел `Test cases`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/testops_tab_test_casess.jpeg)
+
+   - Поставить отметку в чек боксе у тест кейса который необходимо добавить в Jira.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/mark_test_cases.jpeg)
+
+   - Кликнуть на кнопку `Bulk actions` и в выпадающем списке выбрать `Add issues`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/bulk_actions.jpeg)
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_issues.jpeg)
+
+   - В поп-апе `Add issues` кликнуть на выпадающий список в строке `Issue Tracker` и выбрать сервер школьного Jira.
+   - Кликнуть на выпадающий список в строке `Key` и выбрать тикет в который необходимо добавить тест кейсы.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_isues.jpeg)
+
+   - После выбора тикета он будет отображен в строке в поп-апе `Add issues`. Нажать на кнопку `Submit`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/submit_test_cases.jpeg)
+
+   - Добавление тикета в Jira отобразиться в каждом тест кейсе при его раскрытии.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/test_case_link.jpeg)
+
+
+### Добавление прогонов в Jira
+
+Для того чтобы добавить тест кейс в Jira необходимо сделать шаги:
+1. Должна быть настроена интеграция с Jira(описано в разделе [Как подключить интеграцию с Jira](#как-подключить-интеграцию-с-jira))
+2. Должны быть созданы/сгенерированы прогоны в Allure TestOps(описано в разделе [Как подключить интеграцию и запуск джобы в Jenkins через Allure TestOps](#как-подключить-интеграцию-и-запуск-джобы-в-jenkins-через-allure-testops))
+3. Должен быть создан тикет в Jira.
+
+Для того чтобы добавить прогон в Jira необходимо:
+   - В TestOps перейти в раздел `Launches`.
+   - В строке с прогоном который необходимо добавить в Jira кликнуть на кнопку `три точки`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/launces_add.jpeg)
+
+   - В отобразившемся выпадающем списке выбрать `Link to an issue`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/link_issue.jpeg)
+
+   - В поп-апе `Link launch to issue` кликнуть на выпадающий список в строке `Issue Tracker` и выбрать сервер школьного Jira.
+   - Кликнуть на выпадающий список в строке `Key` и выбрать тикет в который необходимо добавить тест кейсы.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/add_launch.jpeg)
+
+   - После выбора прогона он будет отображен в строке в поп-апе `Link launch to issue`. Нажать на кнопку `Submit`.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/submit_add.jpeg)
+
+   - После добавления прогона в Jira, в разделе `Launches` в строке с прогоном отобразиться линк на тикет в Jira.
+
+![](https://raw.githubusercontent.com/qa-guru/knowledge-base/main/img/python/allure-py/added_issues.jpeg)
+
+
+
 
 </details>
